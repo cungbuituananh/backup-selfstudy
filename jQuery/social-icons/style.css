@@ -1,0 +1,30 @@
+.pull-right a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.pull-right .facebook {
+  background: #3a5795;
+}
+.pull-right .linkedin {
+  background: #0177;
+}
+.pull-right .share {
+  background: #00c300;
+}
+.pull-right .twitter {
+  background: #53acf1;
+}
+.pull-right i {
+  color: white;
+}
+
+.pull-right {
+  display: flex;
+  gap: 8px;
+}
